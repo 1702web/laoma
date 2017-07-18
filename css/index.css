@@ -1,0 +1,265 @@
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+html, body {
+  height: 100%;
+}
+
+#heaed {
+  z-index: 999;
+  width: 100%;
+  position: fixed;
+  height: 75px;
+  background: #ffffff;
+}
+#heaed .hea-le {
+  margin-left: 30px;
+}
+#heaed .hea-le a {
+  font: 16px/75px "";
+  margin: 0 25px;
+}
+#heaed .hea_cen {
+  position: absolute;
+  left: 45%;
+}
+#heaed .hea_cen img {
+  width: 120px;
+  height: 50px;
+  margin-top: 10px;
+}
+#heaed .hea_ri {
+  padding: 0 30px;
+}
+#heaed .hea_ri a {
+  font: 16px/75px "";
+}
+
+#banner {
+  position: relative;
+  height: 100%;
+}
+#banner .ban_he {
+  height: 100%;
+}
+#banner img {
+  top: 0%;
+  bottom: 0%;
+  left: -100%;
+  right: -100%;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+#banner .ding {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+#banner .ding h1 {
+  float: left;
+  color: #ffffff;
+  font-size: 35px;
+  margin: 0 35px 0 5%;
+}
+#banner .ding .ding_V {
+  padding-left: 28px;
+  border-left: 1px solid #898f92;
+  height: 90px;
+  float: left;
+}
+#banner .ding .ding_V h2 {
+  color: #ffffff;
+}
+#banner .ding .ding_V a {
+  width: 118px;
+  height: 28px;
+  display: block;
+  background: #ffffff;
+  margin-top: 16px;
+  text-align: center;
+  font: 12px/28px "";
+  color: #000;
+}
+
+#main .ma_ao {
+  background: #f9f9f9;
+}
+#main .ma_ao p {
+  font: 18px/120px "";
+  color: #333333;
+}
+#main .ma_ao p span {
+  font-size: 40px;
+  margin: 0 60px;
+}
+#main .ma_bo ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+#main .ma_bo ul .te {
+  display: none;
+  background: #ebebeb;
+  text-align: center;
+}
+#main .ma_bo ul .te p {
+  margin-top: 140px;
+  font: 20px/30px "";
+}
+#main .ma_bo ul .te span {
+  font: 14px/20px "";
+}
+#main .ma_bo ul li {
+  border: 1px solid #f9f9f9;
+  background: #ffffff;
+  width: 33%;
+  padding: 35px 0 35px 35px;
+  box-sizing: border-box;
+}
+#main .ma_bo ul li .img1 img {
+  width: 100%;
+}
+#main .ma_bo ul li .img2 {
+  display: none;
+}
+#main .ma_bo ul li img {
+  width: 75%;
+  float: right;
+  margin-top: 15px;
+}
+#main .ma_bo ul li .bo-ao h3 {
+  font: 23px/23px "";
+}
+#main .ma_bo ul li .bo-ao span {
+  font: 14px/40px "x";
+}
+#main .ma_bo ul li .bo-ao p {
+  display: none;
+  width: 210px;
+}
+#main .ma_bo ul li .bo-co {
+  display: none;
+}
+#main .ma_bo ul li .bo-co p {
+  font-size: 12px;
+}
+#main .ma_bo ul li .bo-co span {
+  font-size: 20px;
+}
+#main .ma_bo ul li .bo-co a {
+  float: right;
+  display: inline-block;
+  width: 90px;
+  font: 14px/25px "";
+  color: #000;
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+#ban_cs img {
+  width: 100%;
+  height: auto;
+}
+#ban_cs .ban_zo {
+  position: relative;
+}
+#ban_cs .ban_zo .b-a {
+  right: 5%;
+  top: 360px;
+}
+#ban_cs .ban_c {
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  margin: 30px 0 0 5%;
+}
+#ban_cs .ban_c h4 {
+  font: 30px/60px "";
+}
+#ban_cs .ban_c p {
+  font: 20px/30px "";
+}
+#ban_cs .ban_c a {
+  margin-top: 30px;
+  display: block;
+  width: 118px;
+  height: 28px;
+  text-align: center;
+  font: 14px/28px "";
+  background: #ffffff;
+  color: #000000;
+}
+
+#footer {
+  padding: 30px 5%;
+}
+#footer .inp1 {
+  width: 490px;
+  height: 30px;
+  border: 1px solid #ebebeb;
+  box-sizing: border-box;
+  padding: 0 5px 0 60px;
+  margin: 0 5px 5px 25px;
+  background: url("../img/5.png") no-repeat 15px 0;
+}
+#footer .inp2 {
+  width: 90px;
+  height: 30px;
+  background: #0b2749;
+  color: #ffffff;
+  outline: medium;
+  border: none;
+}
+#footer a {
+  font: 14px/70px "";
+  margin-left: 25px;
+}
+#footer span {
+  font: 14px/70px "";
+  margin-right: 25px;
+}
+
+@media screen and (max-width: 1280px) {
+  #main .ma_bo ul li {
+    width: 49%;
+  }
+}
+@media screen and (max-width: 1025px) {
+  #heaed .hea-le {
+    display: none;
+  }
+  #heaed .hea_ri span {
+    display: none;
+  }
+
+  #banner .ding h1 {
+    margin-bottom: 70px;
+  }
+  #banner .ding_V {
+    display: none;
+  }
+
+  #main .ma_ao {
+    display: none;
+  }
+  #main .ma_bo ul .te {
+    display: block;
+  }
+
+  #ban_cs .ban_c {
+    position: static;
+    color: #666666;
+  }
+  #ban_cs .ban_c a {
+    background: #0b2749;
+    color: #ffffff;
+    margin-bottom: 60px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
